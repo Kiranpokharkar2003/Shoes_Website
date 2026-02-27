@@ -178,8 +178,8 @@ ShoesWebsite/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/shoes-ecommerce-frontend.git
-   cd shoes-ecommerce-frontend
+   git clone https://github.com/Kiranpokharkar2003/Shoes_Website.git
+   cd Shoes_Website
    ```
 
 2. **Install dependencies**
@@ -214,9 +214,15 @@ npm start
 # Build for production
 npm run build
 
+# Deploy to GitHub Pages
+npm run deploy
+
 # Run tests
 npm test
 ```
+
+### Live Demo
+🌐 **Live Website**: [https://Kiranpokharkar2003.github.io/Shoes_Website](https://Kiranpokharkar2003.github.io/Shoes_Website)
 
 ### Environment Setup
 

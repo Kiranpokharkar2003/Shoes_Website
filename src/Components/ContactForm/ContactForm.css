@@ -1,0 +1,154 @@
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  padding: 30px;
+  min-height: 90vh;
+}
+
+.contact-form-content {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #ffe6f7, #ffffff);
+  border-radius: 0px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  max-width: 1075px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contact-img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.form-container {
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container textarea {
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #cc3700;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.contact-info div {
+  text-align: center;
+  flex: 1;
+}
+
+.contact-info i {
+  font-size: 24px;
+  color: #ff4500;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .contact-form-content {
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 100%;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 20px;
+  }
+
+  .form-container input,
+  .form-container textarea {
+    font-size: 14px;
+  }
+
+  .form-container button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form-container {
+    padding: 20px;
+  }
+
+  .form-container h2 {
+    font-size: 18px;
+  }
+
+  .form-container input,
+  .form-container textarea {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .form-container button {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-info div {
+    margin-bottom: 15px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+}

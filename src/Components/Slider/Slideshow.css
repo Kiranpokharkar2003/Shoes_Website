@@ -1,0 +1,11 @@
+.slideshow-container {
+    width: 95%;
+    margin: 1px auto;
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  

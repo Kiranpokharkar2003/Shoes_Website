@@ -2,6 +2,10 @@
 
 A modern, responsive e-commerce frontend application for footwear shopping built with React. This project provides a complete shopping experience with product browsing, cart management, user authentication, and checkout functionality.
 
+## 🔗 Live Demo
+
+**Check Demo:** [Live Preview](https://Kiranpokharkar2003.github.io/Shoes_Website)
+
 ![Home Page](./screenshots/home.png)
 
 ## 📋 Table of Contents

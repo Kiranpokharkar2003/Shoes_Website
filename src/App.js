@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter,Routes,Route } from 'react-router-dom';
 import Slideshow from './Components/Slider/Slideshow';
 import Home from './Pages/Home';
 import ShopCategory from './Pages/ShopCategory';
@@ -22,7 +22,7 @@ import Errorpage from './Extra_pages/Errorpage/Error';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -44,7 +44,7 @@ function App() {
         <Route path="/errorpage" element={<Errorpage />} />
       </Routes>
       <Footer/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
